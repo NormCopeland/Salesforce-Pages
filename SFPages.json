@@ -30,5 +30,7 @@
   {"title": "Trusted URLs", "value": "/lightning/setup/SecurityCspTrustedSite/home"},
   {"title": "Deliverability", "value": "/lightning/setup/OrgEmailSettings/home"},
   {"title": "Debug Logs", "value": "/lightning/setup/ApexDebugLogs/home"},
-  {"title": "Apex Jobs", "value": "/lightning/setup/AsyncApexJobs/home"}
+  {"title": "Apex Jobs", "value": "/lightning/setup/AsyncApexJobs/home"},
+  {"title": "Custom Settings", "value": "/lightning/setup/CustomSettings/home"},
+  {"title": "Custom Metadata", "value": "/lightning/setup/CustomMetadata/home"}
 ]
