@@ -32,5 +32,7 @@
   {"title": "Debug Logs", "value": "/lightning/setup/ApexDebugLogs/home"},
   {"title": "Apex Jobs", "value": "/lightning/setup/AsyncApexJobs/home"},
   {"title": "Custom Settings", "value": "/lightning/setup/CustomSettings/home"},
-  {"title": "Custom Metadata", "value": "/lightning/setup/CustomMetadata/home"}
+  {"title": "Custom Metadata", "value": "/lightning/setup/CustomMetadata/home"},
+  {"title": "Global Picklist Value Sets", "value": "/lightning/setup/Picklists/home"},
+  {"title": "Organization-Wide Addresses", "value": "/lightning/setup/OrgWideEmailAddresses/home"}
 ]
