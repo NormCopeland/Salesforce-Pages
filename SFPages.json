@@ -34,5 +34,7 @@
   {"title": "Custom Settings", "value": "/lightning/setup/CustomSettings/home"},
   {"title": "Custom Metadata", "value": "/lightning/setup/CustomMetadata/home"},
   {"title": "Global Picklist Value Sets", "value": "/lightning/setup/Picklists/home"},
-  {"title": "Organization-Wide Addresses", "value": "/lightning/setup/OrgWideEmailAddresses/home"}
+  {"title": "Organization-Wide Addresses", "value": "/lightning/setup/OrgWideEmailAddresses/home"},
+  {"title": "Deployment Settings", "value": "/lightning/setup/DeploymentSettings/home"},
+  {"title": "Certificate and Keys Management", "value": "/lightning/setup/CertificatesAndKeysManagement/home"}
 ]
