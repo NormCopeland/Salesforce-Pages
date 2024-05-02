@@ -36,5 +36,6 @@
   {"title": "Global Picklist Value Sets", "value": "/lightning/setup/Picklists/home"},
   {"title": "Organization-Wide Addresses", "value": "/lightning/setup/OrgWideEmailAddresses/home"},
   {"title": "Deployment Settings", "value": "/lightning/setup/DeploymentSettings/home"},
-  {"title": "Certificate and Keys Management", "value": "/lightning/setup/CertificatesAndKeysManagement/home"}
+  {"title": "Certificate and Keys Management", "value": "/lightning/setup/CertificatesAndKeysManagement/home"},
+  {"title": "Report Types", "value": "/lightning/setup/CustomReportTypes/home"}
 ]
