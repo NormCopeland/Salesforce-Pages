@@ -38,5 +38,7 @@
   {"title": "Deployment Settings", "value": "/lightning/setup/DeploymentSettings/home"},
   {"title": "Certificate and Keys Management", "value": "/lightning/setup/CertificatesAndKeysManagement/home"},
   {"title": "Report Types", "value": "/lightning/setup/CustomReportTypes/home"},
-  {"title": "Static Resources","value":"/lightning/setup/StaticResources/home"}
+  {"title": "Static Resources","value":"/lightning/setup/StaticResources/home"},
+  {"title":"Visualforce Pages","value":"/lightning/setup/ApexPages/home"},
+  {"title":"Fiscal Year","value":"/lightning/setup/ForecastFiscalYear/home"}
 ]
