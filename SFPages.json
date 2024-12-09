@@ -40,5 +40,6 @@
   {"title": "Report Types", "value": "/lightning/setup/CustomReportTypes/home"},
   {"title": "Static Resources","value":"/lightning/setup/StaticResources/home"},
   {"title":"Visualforce Pages","value":"/lightning/setup/ApexPages/home"},
-  {"title":"Fiscal Year","value":"/lightning/setup/ForecastFiscalYear/home"}
+  {"title":"Fiscal Year","value":"/lightning/setup/ForecastFiscalYear/home"},
+  {"title":"Platform Events","value":"/lightning/setup/EventObjects/home"}
 ]
