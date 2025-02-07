@@ -42,5 +42,5 @@
   {"title":"Visualforce Pages","value":"/lightning/setup/ApexPages/home"},
   {"title":"Fiscal Year","value":"/lightning/setup/ForecastFiscalYear/home"},
   {"title":"Platform Events","value":"/lightning/setup/EventObjects/home"},
-  { "title": "Themes and Branding", "value": "/lightning/setup/ThemingAndBranding/home" }
+  {"title": "Themes and Branding", "value": "/lightning/setup/ThemingAndBranding/home" }
 ]
