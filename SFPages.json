@@ -1,44 +1,1992 @@
 [
-  {"title": "Company Information", "value": "/lightning/setup/CompanyProfileInfo/home" },
-  {"title": "Setup Home", "value": "/lightning/setup/SetupOneHome/home/"},
-  {"title": "Service Setup Assistant", "value": "/lightning/setup/ServiceHome/home"},
-  {"title": "Multi-Factor Authentication Assistant", "value": "/lightning/setup/MfaAssistant/home"},
-  {"title": "Hyperforce Assistant", "value": "/lightning/setup/HyperforceAssistant/home"},
-  {"title": "Release Updates", "value": "/lightning/setup/ReleaseUpdates/home"},
-  {"title": "Lightning Experience Transition Assistant", "value": "/lightning/setup/EnableLightningExperience/home"},
-  {"title": "Salesforce Mobile App", "value": "/lightning/setup/SalesforceMobileAppQuickStart/home"},
-  {"title": "Installed Packages", "value": "/lightning/setup/ImportedPackage/home"},
-  {"title": "Dashboards", "value": "/lightning/o/Dashboard/home"},
-  {"title": "Flows", "value": "/lightning/setup/Flows/home"},
-  {"title": "Inbound Change Sets", "value": "/lightning/setup/InboundChangeSet/home"},
-  {"title": "Object Manager", "value": "/lightning/setup/ObjectManager/home"},
-  {"title": "Outbound Change Sets", "value": "/lightning/setup/OutboundChangeSet/home"},
-  {"title": "Permission Sets", "value": "/lightning/setup/PermSets/home"},
-  {"title": "Process Builder", "value": "/lightning/setup/ProcessAutomation/home"},
-  {"title": "Reports", "value": "/lightning/o/Report/home?queryScope=mru"},
-  {"title": "Sandboxes", "value": "/lightning/setup/DataManagementCreateTestInstance/home"},
-  {"title": "Users", "value": "/lightning/setup/ManageUsers/home"},
-  {"title": "Profiles", "value": "/lightning/setup/EnhancedProfiles/home"},
-  {"title": "App Manager", "value": "/lightning/setup/NavigationMenus/home"},
-  {"title": "Manage Connected Apps", "value": "/lightning/setup/ConnectedApplication/home"},
-  {"title": "Lightning App Builder", "value": "/lightning/setup/FlexiPageList/home"},
-  {"title": "Storage Usage", "value": "/lightning/setup/CompanyResourceDisk/home"},
-  {"title": "Sites", "value": "/lightning/setup/CustomDomain/home"},
-  {"title": "Remote Site Settings", "value": "/lightning/setup/SecurityRemoteProxy/home"},
-  {"title": "Trusted URLs", "value": "/lightning/setup/SecurityCspTrustedSite/home"},
-  {"title": "Deliverability", "value": "/lightning/setup/OrgEmailSettings/home"},
-  {"title": "Debug Logs", "value": "/lightning/setup/ApexDebugLogs/home"},
-  {"title": "Apex Jobs", "value": "/lightning/setup/AsyncApexJobs/home"},
-  {"title": "Custom Settings", "value": "/lightning/setup/CustomSettings/home"},
-  {"title": "Custom Metadata", "value": "/lightning/setup/CustomMetadata/home"},
-  {"title": "Global Picklist Value Sets", "value": "/lightning/setup/Picklists/home"},
-  {"title": "Organization-Wide Addresses", "value": "/lightning/setup/OrgWideEmailAddresses/home"},
-  {"title": "Deployment Settings", "value": "/lightning/setup/DeploymentSettings/home"},
-  {"title": "Certificate and Keys Management", "value": "/lightning/setup/CertificatesAndKeysManagement/home"},
-  {"title": "Report Types", "value": "/lightning/setup/CustomReportTypes/home"},
-  {"title": "Static Resources","value":"/lightning/setup/StaticResources/home"},
-  {"title":"Visualforce Pages","value":"/lightning/setup/ApexPages/home"},
-  {"title":"Fiscal Year","value":"/lightning/setup/ForecastFiscalYear/home"},
-  {"title":"Platform Events","value":"/lightning/setup/EventObjects/home"},
-  {"title": "Themes and Branding", "value": "/lightning/setup/ThemingAndBranding/home" }
+  {
+    "title": "Setup Home",
+    "value": "/lightning/setup/SetupOneHome/home",
+    "description": "The main landing page for Salesforce Setup."
+  },
+  {
+    "title": "Salesforce Foundations",
+    "value": "/lightning/setup/C360ProvisioningSetup/home",
+    "description": "Provision and manage Salesforce Foundations (Customer 360) features."
+  },
+  {
+    "title": "Salesforce Go",
+    "value": "/lightning/setup/SalesforceGo/home",
+    "description": "Guided onboarding and setup assistant for getting started with Salesforce."
+  },
+  {
+    "title": "Service Setup Assistant",
+    "value": "/lightning/setup/ServiceHome/home",
+    "description": "Step-by-step assistant for configuring Service Cloud features."
+  },
+  {
+    "title": "Hyperforce Assistant",
+    "value": "/lightning/setup/HyperforceAssistant/home",
+    "description": "Guides admins through migrating or configuring their org on Hyperforce infrastructure."
+  },
+  {
+    "title": "Release Updates",
+    "value": "/lightning/setup/ReleaseUpdates/home",
+    "description": "Review and activate upcoming Salesforce release updates before they are auto-enforced."
+  },
+  {
+    "title": "Salesforce Mobile App",
+    "value": "/lightning/setup/SalesforceMobileAppQuickStart/home",
+    "description": "Quick-start guide for configuring the Salesforce mobile app for your org."
+  },
+  {
+    "title": "Lightning Usage",
+    "value": "/lightning/setup/LightningUsageSetup/home",
+    "description": "View adoption metrics and usage statistics for Lightning Experience."
+  },
+  {
+    "title": "AgentExchange Offers",
+    "value": "/lightning/setup/IsvTmOffersMarketplace/home",
+    "description": "Browse and manage Agentforce-related partner offers from the AgentExchange marketplace."
+  },
+  {
+    "title": "Sales Cloud Everywhere",
+    "value": "/lightning/setup/SalesCloudEverywhereSettings/home",
+    "description": "Configure the Sales Cloud Everywhere browser extension settings."
+  },
+  {
+    "title": "Analytics Groups",
+    "value": "/lightning/setup/DataAnalyticsGroups/home",
+    "description": "Manage user groups for CRM Analytics access control."
+  },
+  {
+    "title": "Permission Set Groups",
+    "value": "/lightning/setup/PermSetGroups/home",
+    "description": "Create and manage groups of permission sets that can be assigned together."
+  },
+  {
+    "title": "Permission Sets",
+    "value": "/lightning/setup/PermSets/home",
+    "description": "Create and manage permission sets to grant additional access beyond a user's profile."
+  },
+  {
+    "title": "Profiles",
+    "value": "/lightning/setup/EnhancedProfiles/home",
+    "description": "Create and manage user profiles that define baseline object and field access."
+  },
+  {
+    "title": "Public Groups",
+    "value": "/lightning/setup/PublicGroups/home",
+    "description": "Create and manage public groups used for sharing rules and list view visibility."
+  },
+  {
+    "title": "Queues",
+    "value": "/lightning/setup/Queues/home",
+    "description": "Create and manage queues for routing cases, leads, and other records to teams."
+  },
+  {
+    "title": "Roles",
+    "value": "/lightning/setup/Roles/home",
+    "description": "Define the role hierarchy that controls record visibility and data access."
+  },
+  {
+    "title": "User Management Settings",
+    "value": "/lightning/setup/UserManagementSettings/home",
+    "description": "Configure org-wide settings related to user management and access."
+  },
+  {
+    "title": "Users",
+    "value": "/lightning/setup/ManageUsers/home",
+    "description": "Create, view, and manage all user accounts in the org."
+  },
+  {
+    "title": "Big Objects",
+    "value": "/lightning/setup/BigObjects/home",
+    "description": "Define and manage Big Objects for storing and querying massive amounts of data."
+  },
+  {
+    "title": "Data Export",
+    "value": "/lightning/setup/DataManagementExport/home",
+    "description": "Schedule or initiate a full export of your org's data as CSV files."
+  },
+  {
+    "title": "Data Integration Metrics",
+    "value": "/lightning/setup/XCleanVitalsUi/home",
+    "description": "View metrics and health statistics for Data.com data integration rules."
+  },
+  {
+    "title": "Data Integration Rules",
+    "value": "/lightning/setup/CleanRules/home",
+    "description": "Configure rules for automatically cleaning and enriching records with third-party data."
+  },
+  {
+    "title": "Duplicate Error Logs",
+    "value": "/lightning/setup/DuplicateErrorLog/home",
+    "description": "View errors that occurred when duplicate rules blocked or alerted on record saves."
+  },
+  {
+    "title": "Duplicate Rules",
+    "value": "/lightning/setup/DuplicateRules/home",
+    "description": "Create and manage rules that prevent or alert users when duplicate records are created."
+  },
+  {
+    "title": "Matching Rules",
+    "value": "/lightning/setup/MatchingRules/home",
+    "description": "Define the criteria used to identify potential duplicate records."
+  },
+  {
+    "title": "Mass Delete Records",
+    "value": "/lightning/setup/DataManagementDelete/home",
+    "description": "Permanently delete large numbers of records of a specific object type."
+  },
+  {
+    "title": "Mass Transfer Approval Requests",
+    "value": "/lightning/setup/DataManagementManageApprovals/home",
+    "description": "Transfer pending approval requests from one user to another in bulk."
+  },
+  {
+    "title": "Mass Transfer Records",
+    "value": "/lightning/setup/DataManagementTransfer/home",
+    "description": "Reassign ownership of multiple records from one user to another at once."
+  },
+  {
+    "title": "Mass Update Addresses",
+    "value": "/lightning/setup/DataManagementMassUpdateAddresses/home",
+    "description": "Bulk-update state and country field values across records."
+  },
+  {
+    "title": "Picklist Settings",
+    "value": "/lightning/setup/PicklistSettings/home",
+    "description": "Configure org-wide settings for picklist behavior and value management."
+  },
+  {
+    "title": "Schema Settings",
+    "value": "/lightning/setup/SchemaSettings/home",
+    "description": "Enable or disable schema-level features such as field history tracking options."
+  },
+  {
+    "title": "State and Country/Territory Picklists",
+    "value": "/lightning/setup/AddressCleanerOverview/home",
+    "description": "Enable and configure standardized state and country picklist values for address fields."
+  },
+  {
+    "title": "Storage Usage",
+    "value": "/lightning/setup/CompanyResourceDisk/home",
+    "description": "Monitor your org's data and file storage usage by user and object."
+  },
+  {
+    "title": "Apex Exception Email",
+    "value": "/lightning/setup/ApexExceptionEmail/home",
+    "description": "Configure which users receive email notifications when unhandled Apex exceptions occur."
+  },
+  {
+    "title": "Authorized Email Domains",
+    "value": "/lightning/setup/AuthorizedEmailDomains/home",
+    "description": "Specify email domains that users are allowed to send from within Salesforce."
+  },
+  {
+    "title": "Classic Email Templates",
+    "value": "/lightning/setup/CommunicationTemplatesEmail/home",
+    "description": "Create and manage legacy HTML and text email templates."
+  },
+  {
+    "title": "Classic Letterheads",
+    "value": "/lightning/setup/CommunicationTemplatesLetterheads/home",
+    "description": "Create and manage letterhead designs used with classic HTML email templates."
+  },
+  {
+    "title": "Compliance BCC Email",
+    "value": "/lightning/setup/SecurityComplianceBcc/home",
+    "description": "Configure a BCC address to receive a copy of every outbound email for compliance purposes."
+  },
+  {
+    "title": "DKIM Keys",
+    "value": "/lightning/setup/EmailDKIMList/home",
+    "description": "Create and manage DKIM keys to authenticate outbound emails and improve deliverability."
+  },
+  {
+    "title": "Delete Attachments Sent as Links",
+    "value": "/lightning/setup/EmailAttachmentManagement/home",
+    "description": "Manage and delete file attachments that were shared as links in emails."
+  },
+  {
+    "title": "Deliverability",
+    "value": "/lightning/setup/OrgEmailSettings/home",
+    "description": "Control the level of outbound email delivery allowed from the org."
+  },
+  {
+    "title": "Email Address Internationalization",
+    "value": "/lightning/setup/InternationalEmailAddresses/home",
+    "description": "Enable support for internationalized (non-ASCII) email addresses."
+  },
+  {
+    "title": "Email Attachments",
+    "value": "/lightning/setup/EmailAttachmentSettings/home",
+    "description": "Configure settings for how email attachments are handled in the org."
+  },
+  {
+    "title": "Email Domain Filters",
+    "value": "/lightning/setup/EmailDomainFilter/home",
+    "description": "Set up filters to restrict or allow email relay based on recipient domains."
+  },
+  {
+    "title": "Email Relays",
+    "value": "/lightning/setup/EmailRelay/home",
+    "description": "Configure email relay servers to route outbound Salesforce emails through your own mail server."
+  },
+  {
+    "title": "Email Footers",
+    "value": "/lightning/setup/EmailDisclaimers/home",
+    "description": "Create and manage standard footers appended to outbound emails."
+  },
+  {
+    "title": "Email to Salesforce",
+    "value": "/lightning/setup/EmailToSalesforce/home",
+    "description": "Configure the Email to Salesforce feature that lets users log emails to records via BCC."
+  },
+  {
+    "title": "Enhanced Email",
+    "value": "/lightning/setup/EnhancedEmail/home",
+    "description": "Enable Enhanced Email to store emails as Email Message records with richer tracking."
+  },
+  {
+    "title": "Filter Email Tracking",
+    "value": "/lightning/setup/FilterEmailTracking/home",
+    "description": "Configure filters to exclude certain users or IP addresses from email open/click tracking."
+  },
+  {
+    "title": "Gmail Integration and Sync",
+    "value": "/lightning/setup/LightningForGmailAndSyncSettings/home",
+    "description": "Set up the Salesforce integration with Gmail and Google Calendar for activity sync."
+  },
+  {
+    "title": "Lightning Email Templates",
+    "value": "/lightning/setup/LightningEmailTemplateSetup/home",
+    "description": "Manage settings for Lightning Experience email templates."
+  },
+  {
+    "title": "Mail Merge Templates",
+    "value": "/lightning/setup/CommunicationTemplatesWord/home",
+    "description": "Upload and manage Microsoft Word mail merge templates for generating documents."
+  },
+  {
+    "title": "Organization-Wide Addresses",
+    "value": "/lightning/setup/OrgWideEmailAddresses/home",
+    "description": "Define shared 'from' email addresses that users can send email from on behalf of the org."
+  },
+  {
+    "title": "Outlook Integration and Sync",
+    "value": "/lightning/setup/LightningForOutlookAndSyncSettings/home",
+    "description": "Set up the Salesforce integration with Microsoft Outlook and Exchange for activity sync."
+  },
+  {
+    "title": "Test Deliverability",
+    "value": "/lightning/setup/TestEmailDeliverability/home",
+    "description": "Send a test email to verify that your org's email deliverability settings are working correctly."
+  },
+  {
+    "title": "App Manager",
+    "value": "/lightning/setup/NavigationMenus/home",
+    "description": "Create and manage Lightning apps, including navigation menus and app settings."
+  },
+  {
+    "title": "AppExchange Marketplace",
+    "value": "/lightning/setup/AppExchangeMarketplace/home",
+    "description": "Browse and install apps, components, and solutions from the Salesforce AppExchange."
+  },
+  {
+    "title": "Connected Apps OAuth Usage",
+    "value": "/lightning/setup/ConnectedAppsUsage/home",
+    "description": "Monitor OAuth token usage across connected apps authorized in your org."
+  },
+  {
+    "title": "Manage Connected Apps",
+    "value": "/lightning/setup/ConnectedApplication/home",
+    "description": "View and manage all connected apps installed or created in the org."
+  },
+  {
+    "title": "External Client App Manager",
+    "value": "/lightning/setup/ManageExternalClientApplication/home",
+    "description": "Manage external client applications registered with the org."
+  },
+  {
+    "title": "OAuth Usage (External Client Apps)",
+    "value": "/lightning/setup/ExternalClientApplicationOauthUsage/home",
+    "description": "Monitor OAuth usage for external client applications."
+  },
+  {
+    "title": "Settings (External Client Apps)",
+    "value": "/lightning/setup/ExternalClientApplicationSettings/home",
+    "description": "Configure org-wide settings for external client applications."
+  },
+  {
+    "title": "Flow Category",
+    "value": "/lightning/setup/FlowCategory/home",
+    "description": "Create and manage categories used to organize Lightning Bolt flow solutions."
+  },
+  {
+    "title": "Lightning Bolt Solutions",
+    "value": "/lightning/setup/LightningBolt/home",
+    "description": "Package and manage Lightning Bolt solutions for distribution."
+  },
+  {
+    "title": "Lightning Out 2.0 App Manager",
+    "value": "/lightning/setup/LightningOut/home",
+    "description": "Manage Lightning Out 2.0 apps that embed Lightning components in external web pages."
+  },
+  {
+    "title": "Mobile Builder for the Seller-Focused Experience",
+    "value": "/lightning/setup/SalesCloudMab/home",
+    "description": "Configure the mobile app layout for the seller-focused mobile experience."
+  },
+  {
+    "title": "Salesforce Branding",
+    "value": "/lightning/setup/Salesforce1Branding/home",
+    "description": "Customize the branding (colors, logo) of the Salesforce mobile app."
+  },
+  {
+    "title": "Salesforce Navigation",
+    "value": "/lightning/setup/ProjectOneAppMenu/home",
+    "description": "Configure the navigation menu items displayed in the Salesforce mobile app."
+  },
+  {
+    "title": "Salesforce Notifications",
+    "value": "/lightning/setup/NotificationsSettings/home",
+    "description": "Manage which push notifications are sent to users of the Salesforce mobile app."
+  },
+  {
+    "title": "Salesforce Offline",
+    "value": "/lightning/setup/MobileOfflineStorageAdmin/home",
+    "description": "Configure offline data access settings for the Salesforce mobile app."
+  },
+  {
+    "title": "Salesforce Settings",
+    "value": "/lightning/setup/Salesforce1Settings/home",
+    "description": "Manage general settings for the Salesforce mobile app."
+  },
+  {
+    "title": "Installed Packages",
+    "value": "/lightning/setup/ImportedPackage/home",
+    "description": "View and manage all managed and unmanaged packages installed in the org."
+  },
+  {
+    "title": "Package Manager",
+    "value": "/lightning/setup/Package/home",
+    "description": "Create and manage packages for distributing customizations to other orgs."
+  },
+  {
+    "title": "Package Usage",
+    "value": "/lightning/setup/PackageUsageSummary/home",
+    "description": "View usage statistics for packages installed in subscriber orgs."
+  },
+  {
+    "title": "React Development with Salesforce Multi-Framework",
+    "value": "/lightning/setup/AgentforceVibesInReact/home",
+    "description": "Configure settings for building Salesforce apps using React and the multi-framework SDK."
+  },
+  {
+    "title": "App Hub",
+    "value": "/lightning/setup/AppHub/home",
+    "description": "Manage connected app hubs that link multiple orgs for templated app distribution."
+  },
+  {
+    "title": "Templates",
+    "value": "/lightning/setup/TemplateStudio/home",
+    "description": "Create and manage Lightning Experience app templates for templated app distribution."
+  },
+  {
+    "title": "App Install History",
+    "value": "/lightning/setup/InsightsSetupAppHistoryControlPanel/home",
+    "description": "View the installation history of CRM Analytics apps in the org."
+  },
+  {
+    "title": "Auto-Installed Apps",
+    "value": "/lightning/setup/InsightsSetupAutoInstalledApps/home",
+    "description": "Manage CRM Analytics apps that are automatically installed for the org."
+  },
+  {
+    "title": "Access Policies",
+    "value": "/lightning/setup/SessionLevelPolicyUI/home",
+    "description": "Configure session-level security policies for accessing reports and dashboards."
+  },
+  {
+    "title": "Historical Trending",
+    "value": "/lightning/setup/HistoricalTrendingUI/home",
+    "description": "Enable and configure historical trending to track field value changes over time in reports."
+  },
+  {
+    "title": "Report Types",
+    "value": "/lightning/setup/CustomReportTypeLightning/home",
+    "description": "Create and manage custom report types that define the objects and fields available in reports."
+  },
+  {
+    "title": "Reporting Snapshots",
+    "value": "/lightning/setup/AnalyticSnapshots/home",
+    "description": "Schedule recurring report runs that capture data snapshots into a custom object."
+  },
+  {
+    "title": "Reports and Dashboards Settings",
+    "value": "/lightning/setup/ReportUI/home",
+    "description": "Configure org-wide settings for reports and dashboards behavior."
+  },
+  {
+    "title": "Tableau Embedding",
+    "value": "/lightning/setup/TableauEmbeddingSettings/home",
+    "description": "Configure settings for embedding Tableau visualizations within Salesforce."
+  },
+  {
+    "title": "Tableau UAF Claims Definition",
+    "value": "/lightning/setup/TableauUafClaimDefnSettings/home",
+    "description": "Define User Attribute Framework (UAF) claims for Tableau SSO integration."
+  },
+  {
+    "title": "Approval Settings",
+    "value": "/lightning/setup/ApprovalSetup/home",
+    "description": "Configure org-wide settings for approval processes."
+  },
+  {
+    "title": "Chatter Settings",
+    "value": "/lightning/setup/CollaborationSettings/home",
+    "description": "Enable and configure Chatter features for the org."
+  },
+  {
+    "title": "Email Settings (Chatter)",
+    "value": "/lightning/setup/ChatterEmailSettings/home",
+    "description": "Configure email notification preferences for Chatter activity."
+  },
+  {
+    "title": "Feed Item Actions",
+    "value": "/lightning/setup/FeedItemActions/home",
+    "description": "Manage the actions available on Chatter feed items."
+  },
+  {
+    "title": "Feed Item Layouts",
+    "value": "/lightning/setup/FeedItemLayouts/home",
+    "description": "Customize the layout of Chatter feed items."
+  },
+  {
+    "title": "Feed Tracking",
+    "value": "/lightning/setup/FeedTracking/home",
+    "description": "Configure which objects and fields are tracked and displayed in Chatter feeds."
+  },
+  {
+    "title": "Group Layouts",
+    "value": "/lightning/setup/CollaborationGroupLayouts/home",
+    "description": "Customize the page layout for Chatter group records."
+  },
+  {
+    "title": "Group Member Triggers",
+    "value": "/lightning/setup/CollaborationGroupMemberTriggers/home",
+    "description": "View and manage Apex triggers on the CollaborationGroupMember object."
+  },
+  {
+    "title": "Group Record Triggers",
+    "value": "/lightning/setup/CollaborationGroupRecordTriggers/home",
+    "description": "View and manage Apex triggers on the CollaborationGroupRecord object."
+  },
+  {
+    "title": "Group Triggers",
+    "value": "/lightning/setup/CollaborationGroupTriggers/home",
+    "description": "View and manage Apex triggers on the CollaborationGroup object."
+  },
+  {
+    "title": "Record Types (Groups)",
+    "value": "/lightning/setup/CollaborationGroupRecordTypes/home",
+    "description": "Manage record types for Chatter groups."
+  },
+  {
+    "title": "Influence",
+    "value": "/lightning/setup/InfluenceSettings/home",
+    "description": "Configure Chatter Influence settings to track user engagement."
+  },
+  {
+    "title": "FeedComment Triggers",
+    "value": "/lightning/setup/FeedCommentTriggers/home",
+    "description": "View and manage Apex triggers on the FeedComment object."
+  },
+  {
+    "title": "FeedItem Triggers",
+    "value": "/lightning/setup/FeedItemTriggers/home",
+    "description": "View and manage Apex triggers on the FeedItem object."
+  },
+  {
+    "title": "Salesforce CMS",
+    "value": "/lightning/setup/SalesforceCMSSettings/home",
+    "description": "Configure settings for Salesforce CMS content management."
+  },
+  {
+    "title": "Settings (Digital Experiences)",
+    "value": "/lightning/setup/NetworkSettings/home",
+    "description": "Enable and configure Digital Experiences (Experience Cloud) for the org."
+  },
+  {
+    "title": "Field History Tracking",
+    "value": "/lightning/setup/FieldHistoryTracking/home",
+    "description": "Manage field history tracking settings across objects to audit field value changes."
+  },
+  {
+    "title": "Functions",
+    "value": "/lightning/setup/Functions/home",
+    "description": "Configure and manage Salesforce Functions (serverless compute) for the org."
+  },
+  {
+    "title": "Home (Feature Settings)",
+    "value": "/lightning/setup/Home/home",
+    "description": "Configure the Home page experience and components for Lightning Experience."
+  },
+  {
+    "title": "Accounts As Campaign Members",
+    "value": "/lightning/setup/AccountAsCM/home",
+    "description": "Enable the ability to add Account records as campaign members."
+  },
+  {
+    "title": "Auto-Association Settings",
+    "value": "/lightning/setup/AutoAssociationSettings/home",
+    "description": "Configure rules for automatically associating opportunities with campaigns."
+  },
+  {
+    "title": "Campaign Influence Settings",
+    "value": "/lightning/setup/CampaignInfluenceSettings/home",
+    "description": "Enable and configure Campaign Influence to attribute revenue to marketing campaigns."
+  },
+  {
+    "title": "Lead Assignment Rules",
+    "value": "/lightning/setup/LeadRules/home",
+    "description": "Create rules that automatically assign new leads to users or queues."
+  },
+  {
+    "title": "Lead Auto-Response Rules",
+    "value": "/lightning/setup/LeadResponses/home",
+    "description": "Create rules that send automatic email responses to new leads."
+  },
+  {
+    "title": "Lead Processes",
+    "value": "/lightning/setup/LeadProcess/home",
+    "description": "Define the status values available at each stage of the lead lifecycle."
+  },
+  {
+    "title": "Lead Settings",
+    "value": "/lightning/setup/LeadSettings/home",
+    "description": "Configure org-wide settings for lead management."
+  },
+  {
+    "title": "Lead Gen Fields",
+    "value": "/lightning/setup/LinkedInLeadGenFields/home",
+    "description": "Map LinkedIn Lead Gen form fields to Salesforce lead fields."
+  },
+  {
+    "title": "LinkedIn Accounts",
+    "value": "/lightning/setup/LinkedInLeadGenAccounts/home",
+    "description": "Connect and manage LinkedIn ad accounts for Lead Gen form integration."
+  },
+  {
+    "title": "Web-to-Lead",
+    "value": "/lightning/setup/LeadWebtoleads/home",
+    "description": "Generate HTML forms that capture leads from your website directly into Salesforce."
+  },
+  {
+    "title": "Quip (Salesforce Anywhere)",
+    "value": "/lightning/setup/SalesforceAnywhereSetupPage/home",
+    "description": "Configure the Quip (Salesforce Anywhere) integration for collaborative documents."
+  },
+  {
+    "title": "Account Intelligence View Setup",
+    "value": "/lightning/setup/AccountInspectionSettings/home",
+    "description": "Configure the Account Intelligence View for a richer account detail experience."
+  },
+  {
+    "title": "Sales Account Plans",
+    "value": "/lightning/setup/SalesAccountPlans/home",
+    "description": "Enable and configure account planning features for sales reps."
+  },
+  {
+    "title": "Sales Action Plans",
+    "value": "/lightning/setup/SalesActionPlans/home",
+    "description": "Configure action plan templates to standardize sales processes on accounts."
+  },
+  {
+    "title": "Account Settings",
+    "value": "/lightning/setup/AccountSettings/home",
+    "description": "Configure org-wide settings for Account records."
+  },
+  {
+    "title": "Account Teams",
+    "value": "/lightning/setup/AccountTeamSelling/home",
+    "description": "Enable and configure account teams for collaborative selling on accounts."
+  },
+  {
+    "title": "Person Accounts",
+    "value": "/lightning/setup/PersonAccountSettings/home",
+    "description": "Enable and configure Person Accounts to represent individual consumers."
+  },
+  {
+    "title": "Activity Settings",
+    "value": "/lightning/setup/HomeActivitiesSetupPage/home",
+    "description": "Configure settings for tasks, events, and activity tracking."
+  },
+  {
+    "title": "Contact Intelligence View Setup",
+    "value": "/lightning/setup/ContactInspectionSettings/home",
+    "description": "Configure the Contact Intelligence View for a richer contact detail experience."
+  },
+  {
+    "title": "Contact Roles on Contracts",
+    "value": "/lightning/setup/ContractContactRoles/home",
+    "description": "Define the roles that contacts can play on contract records."
+  },
+  {
+    "title": "Contact Roles on Opportunities",
+    "value": "/lightning/setup/OpportunityRoles/home",
+    "description": "Define the roles that contacts can play on opportunity records."
+  },
+  {
+    "title": "Buyer Relationship Map",
+    "value": "/lightning/setup/BuyerRelationshipMap/home",
+    "description": "Configure the Buyer Relationship Map for visualizing contact relationships on opportunities."
+  },
+  {
+    "title": "Contract Settings",
+    "value": "/lightning/setup/ContractSettings/home",
+    "description": "Configure org-wide settings for Contract records."
+  },
+  {
+    "title": "Forecasts Hierarchy",
+    "value": "/lightning/setup/Forecasting3Role/home",
+    "description": "View and configure the role hierarchy used for collaborative forecasting."
+  },
+  {
+    "title": "Forecasts Settings",
+    "value": "/lightning/setup/Forecasting3Settings/home",
+    "description": "Enable and configure Collaborative Forecasting for the org."
+  },
+  {
+    "title": "Individual Settings",
+    "value": "/lightning/setup/IndividualSettings/home",
+    "description": "Enable the Individual object for storing personal data preferences for GDPR compliance."
+  },
+  {
+    "title": "Lead Intelligence View Setup",
+    "value": "/lightning/setup/LeadInspectionSettings/home",
+    "description": "Configure the Lead Intelligence View for a richer lead detail experience."
+  },
+  {
+    "title": "LinkedIn Sales Navigator",
+    "value": "/lightning/setup/LinkedInSalesNavigatorPage/home",
+    "description": "Configure the LinkedIn Sales Navigator integration for prospecting within Salesforce."
+  },
+  {
+    "title": "Settings (Meetings)",
+    "value": "/lightning/setup/SalesforceMeetingsSettings/home",
+    "description": "Configure Salesforce Meetings settings for video call integration."
+  },
+  {
+    "title": "Notes Settings",
+    "value": "/lightning/setup/NotesSetupPage/home",
+    "description": "Enable and configure the enhanced Notes feature for richer note-taking."
+  },
+  {
+    "title": "Big Deal Alert",
+    "value": "/lightning/setup/OpportunityAlerts/home",
+    "description": "Configure email alerts triggered when an opportunity reaches a specified amount threshold."
+  },
+  {
+    "title": "Opportunity Settings",
+    "value": "/lightning/setup/OpportunitySettings/home",
+    "description": "Configure org-wide settings for Opportunity records."
+  },
+  {
+    "title": "Opportunity Team Settings",
+    "value": "/lightning/setup/OpportunityTeamMemberSettings/home",
+    "description": "Enable and configure opportunity teams for collaborative selling on deals."
+  },
+  {
+    "title": "Pipeline Inspection Setup",
+    "value": "/lightning/setup/PipelineInspectionSettings/home",
+    "description": "Configure the Pipeline Inspection view for monitoring opportunity health."
+  },
+  {
+    "title": "Order Settings",
+    "value": "/lightning/setup/OrderSettings/home",
+    "description": "Enable and configure Order records and related settings."
+  },
+  {
+    "title": "Asset Settings",
+    "value": "/lightning/setup/AssetSettings/home",
+    "description": "Configure settings for Asset records linked to products and accounts."
+  },
+  {
+    "title": "Product Schedules Settings",
+    "value": "/lightning/setup/Product2ScheduleSetup/home",
+    "description": "Enable and configure revenue and quantity schedules for products."
+  },
+  {
+    "title": "Product Settings",
+    "value": "/lightning/setup/Product2Settings/home",
+    "description": "Configure org-wide settings for Product records."
+  },
+  {
+    "title": "Quotes Settings",
+    "value": "/lightning/setup/QuoteSettings/home",
+    "description": "Enable and configure the Quotes feature for generating sales quotes from opportunities."
+  },
+  {
+    "title": "Setup Assistant (Inbox)",
+    "value": "/lightning/setup/EmailIqSetupPage/home",
+    "description": "Set up Salesforce Inbox for email and calendar integration with sales workflows."
+  },
+  {
+    "title": "Log a Call",
+    "value": "/lightning/setup/DialerLogACallSetup/home",
+    "description": "Configure the Log a Call feature for Sales Engagement."
+  },
+  {
+    "title": "Sales Engagement Settings",
+    "value": "/lightning/setup/SalesEngagement/home",
+    "description": "Enable and configure Sales Engagement (formerly High Velocity Sales) features."
+  },
+  {
+    "title": "Sales Processes",
+    "value": "/lightning/setup/OpportunityProcess/home",
+    "description": "Define the opportunity stages available for each sales process."
+  },
+  {
+    "title": "Territory Settings",
+    "value": "/lightning/setup/Territory2Settings/home",
+    "description": "Enable and configure Enterprise Territory Management for the org."
+  },
+  {
+    "title": "Update Reminders",
+    "value": "/lightning/setup/OpportunityUpdateReminders/home",
+    "description": "Configure automated email reminders prompting reps to update their opportunities."
+  },
+  {
+    "title": "Zoom Video Setup",
+    "value": "/lightning/setup/ZoomVideoSetup/home",
+    "description": "Configure the Zoom video integration for Salesforce Meetings."
+  },
+  {
+    "title": "Asset Files",
+    "value": "/lightning/setup/ContentAssets/home",
+    "description": "Manage static asset files (images, fonts, etc.) used in org branding and components."
+  },
+  {
+    "title": "Content Deliveries and Public Links",
+    "value": "/lightning/setup/ContentDistribution/home",
+    "description": "Configure settings for sharing files via public links and content deliveries."
+  },
+  {
+    "title": "Files Connect",
+    "value": "/lightning/setup/ContentHub/home",
+    "description": "Configure Files Connect to access external file repositories like SharePoint or Google Drive."
+  },
+  {
+    "title": "General Settings (Files)",
+    "value": "/lightning/setup/FilesGeneralSettings/home",
+    "description": "Configure org-wide general settings for Salesforce Files."
+  },
+  {
+    "title": "Malware Scanning",
+    "value": "/lightning/setup/MalwareScanSettings/home",
+    "description": "Enable malware scanning for files uploaded to Salesforce."
+  },
+  {
+    "title": "Regenerate Previews",
+    "value": "/lightning/setup/RegeneratePreviews/home",
+    "description": "Trigger regeneration of file preview renditions for documents in the org."
+  },
+  {
+    "title": "Salesforce CRM Content",
+    "value": "/lightning/setup/SalesforceCRMContent/home",
+    "description": "Enable and configure Salesforce CRM Content for document library management."
+  },
+  {
+    "title": "Call Centers",
+    "value": "/lightning/setup/CallCenters/home",
+    "description": "Create and manage call center configurations for CTI integrations."
+  },
+  {
+    "title": "Directory Numbers",
+    "value": "/lightning/setup/AdditionalDirectoryNumbers/home",
+    "description": "Manage additional phone directory numbers for call center use."
+  },
+  {
+    "title": "Softphone Layouts",
+    "value": "/lightning/setup/SoftphoneLayouts/home",
+    "description": "Configure the layout of the CTI softphone panel for call center agents."
+  },
+  {
+    "title": "Case Assignment Rules",
+    "value": "/lightning/setup/CaseRules/home",
+    "description": "Create rules that automatically assign new cases to users or queues."
+  },
+  {
+    "title": "Case Auto-Response Rules",
+    "value": "/lightning/setup/CaseResponses/home",
+    "description": "Create rules that send automatic email responses to customers when cases are created."
+  },
+  {
+    "title": "Case Comment Triggers",
+    "value": "/lightning/setup/CaseCommentTriggers/home",
+    "description": "View and manage Apex triggers on the CaseComment object."
+  },
+  {
+    "title": "Case Merge",
+    "value": "/lightning/setup/CaseMerge/home",
+    "description": "Enable and configure the ability to merge duplicate case records."
+  },
+  {
+    "title": "Case Team Roles",
+    "value": "/lightning/setup/CaseTeamRoles/home",
+    "description": "Define the roles that team members can have on a case team."
+  },
+  {
+    "title": "Predefined Case Teams",
+    "value": "/lightning/setup/CaseTeamTemplates/home",
+    "description": "Create reusable case team templates with predefined members and roles."
+  },
+  {
+    "title": "Contact Roles on Cases",
+    "value": "/lightning/setup/CaseContactRoles/home",
+    "description": "Define the roles that contacts can play on case records."
+  },
+  {
+    "title": "Customer Contact Requests",
+    "value": "/lightning/setup/ContactRequestFlows/home",
+    "description": "Configure flows that handle customer callback and contact request submissions."
+  },
+  {
+    "title": "Customer Service Incident Management",
+    "value": "/lightning/setup/IncidentManagement/home",
+    "description": "Enable and configure Incident Management for tracking service disruptions."
+  },
+  {
+    "title": "Email-to-Case",
+    "value": "/lightning/setup/EmailToCase/home",
+    "description": "Configure Email-to-Case to automatically create cases from inbound customer emails."
+  },
+  {
+    "title": "Channel Menu",
+    "value": "/lightning/setup/ChannelMenuDeployments/home",
+    "description": "Create and deploy channel menus that let customers choose how to contact support."
+  },
+  {
+    "title": "Embedded Service Deployments",
+    "value": "/lightning/setup/EmbeddedServiceDeployments/home",
+    "description": "Create and manage Embedded Service deployments for embedding chat and support on websites."
+  },
+  {
+    "title": "Legacy Web Chat Migration (Beta)",
+    "value": "/lightning/setup/MigrateChatDeployments/home",
+    "description": "Migrate legacy Live Agent Web Chat deployments to the new Embedded Messaging platform."
+  },
+  {
+    "title": "Entitlement Processes",
+    "value": "/lightning/setup/SlaProcess/home",
+    "description": "Create milestone-based entitlement processes that define service level timelines."
+  },
+  {
+    "title": "Entitlement Settings",
+    "value": "/lightning/setup/EntitlementSettings/home",
+    "description": "Enable and configure Entitlement Management for the org."
+  },
+  {
+    "title": "Entitlement Templates",
+    "value": "/lightning/setup/EntitlementTemplates/home",
+    "description": "Create reusable entitlement templates to quickly add entitlements to products."
+  },
+  {
+    "title": "Milestones",
+    "value": "/lightning/setup/MilestoneTypes/home",
+    "description": "Define milestone types used within entitlement processes to track SLA steps."
+  },
+  {
+    "title": "Escalation Rules",
+    "value": "/lightning/setup/CaseEscRules/home",
+    "description": "Create rules that automatically escalate cases based on age or criteria."
+  },
+  {
+    "title": "Feed Filters",
+    "value": "/lightning/setup/FeedFilterDefinitions/home",
+    "description": "Create custom feed filters for the case feed in the Service Console."
+  },
+  {
+    "title": "Field Service Mobile App Builder",
+    "value": "/lightning/setup/FieldServiceAppBuilder/home",
+    "description": "Customize the mobile app layout for Field Service Lightning mobile workers."
+  },
+  {
+    "title": "Field Service Settings",
+    "value": "/lightning/setup/FieldServiceSettings/home",
+    "description": "Enable and configure Field Service Lightning features for the org."
+  },
+  {
+    "title": "Macro Settings",
+    "value": "/lightning/setup/MacroSettings/home",
+    "description": "Configure settings for macros that automate repetitive agent actions in the Service Console."
+  },
+  {
+    "title": "Omni-Channel Settings",
+    "value": "/lightning/setup/OmniChannelSettings/home",
+    "description": "Enable and configure Omni-Channel for intelligent work routing to agents."
+  },
+  {
+    "title": "Einstein Classification",
+    "value": "/lightning/setup/EinsteinCaseClassification/home",
+    "description": "Configure Einstein AI to automatically classify and route incoming cases."
+  },
+  {
+    "title": "Real-Time Translations",
+    "value": "/lightning/setup/EinsteinConversationTranslate/home",
+    "description": "Enable real-time AI-powered translation for messaging conversations."
+  },
+  {
+    "title": "Support Processes",
+    "value": "/lightning/setup/CaseProcess/home",
+    "description": "Define the case status values available for each support process."
+  },
+  {
+    "title": "Support Settings",
+    "value": "/lightning/setup/CaseSettings/home",
+    "description": "Configure org-wide settings for case management and the support experience."
+  },
+  {
+    "title": "Swarming",
+    "value": "/lightning/setup/CaseSwarming/home",
+    "description": "Enable and configure Swarming to collaborate on complex cases via Slack channels."
+  },
+  {
+    "title": "Web-to-Case",
+    "value": "/lightning/setup/CaseWebtocase/home",
+    "description": "Enable and configure Web-to-Case to capture support requests from your website."
+  },
+  {
+    "title": "Web-to-Case HTML Generator",
+    "value": "/lightning/setup/CaseWebToCaseHtmlGenerator/home",
+    "description": "Generate the HTML code for a Web-to-Case form to embed on your website."
+  },
+  {
+    "title": "Survey Settings",
+    "value": "/lightning/setup/SurveySettings/home",
+    "description": "Enable and configure the Salesforce Surveys feature for the org."
+  },
+  {
+    "title": "Topic Assignment Triggers",
+    "value": "/lightning/setup/TopicAssigmentTriggers/home",
+    "description": "View and manage Apex triggers on the TopicAssignment object."
+  },
+  {
+    "title": "Topic Triggers",
+    "value": "/lightning/setup/TopicTriggers/home",
+    "description": "View and manage Apex triggers on the Topic object."
+  },
+  {
+    "title": "Topics for Objects",
+    "value": "/lightning/setup/TopicRecords/home",
+    "description": "Enable topics on specific objects so users can tag records with topic labels."
+  },
+  {
+    "title": "Guided Slack Setup",
+    "value": "/lightning/setup/AutoSlack/home",
+    "description": "Step-by-step assistant for connecting Salesforce to your Slack workspace."
+  },
+  {
+    "title": "Manage Slack Connection",
+    "value": "/lightning/setup/SlackWorkspaces/home",
+    "description": "View and manage the connected Slack workspaces for the org."
+  },
+  {
+    "title": "Slack Apps Setup",
+    "value": "/lightning/setup/SlackSetupAssistant/home",
+    "description": "Configure and manage Salesforce apps installed in Slack."
+  },
+  {
+    "title": "Slack Channels for Records",
+    "value": "/lightning/setup/SlackRecordChannels/home",
+    "description": "Configure automatic Slack channel creation linked to Salesforce records."
+  },
+  {
+    "title": "Batch Management",
+    "value": "/lightning/setup/BatchProcessJobDefinition/home",
+    "description": "Create and manage batch job definitions for Workflow Services."
+  },
+  {
+    "title": "Monitor Workflow Services",
+    "value": "/lightning/setup/MonitorWorkflowServices/home",
+    "description": "Monitor the status and health of running Workflow Services jobs."
+  },
+  {
+    "title": "Data Cloud Setup Home",
+    "value": "/lightning/setup/CdpNoLicense/home",
+    "description": "Landing page for Data Cloud setup and provisioning information."
+  },
+  {
+    "title": "About Heroku",
+    "value": "/lightning/setup/AboutHeroku/home",
+    "description": "Information about the Heroku platform and its integration with Salesforce."
+  },
+  {
+    "title": "Apps (Heroku)",
+    "value": "/lightning/setup/HerokuApps/home",
+    "description": "View and manage Heroku apps connected to the Salesforce org."
+  },
+  {
+    "title": "Anypoint Platform Setup",
+    "value": "/lightning/setup/MulesoftSetup/home",
+    "description": "Configure the connection between Salesforce and MuleSoft's Anypoint Platform."
+  },
+  {
+    "title": "Integration Intelligence Setup Assistant",
+    "value": "/lightning/setup/IntegrationIntelligence/home",
+    "description": "Guided assistant for setting up MuleSoft Integration Intelligence in Salesforce."
+  },
+  {
+    "title": "MuleSoft Observability",
+    "value": "/lightning/setup/MulesoftObservability/home",
+    "description": "Monitor and observe MuleSoft integration health and performance from within Salesforce."
+  },
+  {
+    "title": "Policies (Agentforce Gateway)",
+    "value": "/lightning/setup/AgentforceProtectionPolicies/home",
+    "description": "Configure protection policies for the Agentforce Gateway to govern AI agent behavior."
+  },
+  {
+    "title": "APIs (Agentforce Registry)",
+    "value": "/lightning/setup/ApiRegistry/home",
+    "description": "Register and manage APIs available to Agentforce agents via the registry."
+  },
+  {
+    "title": "MCP Servers (Agentforce Registry)",
+    "value": "/lightning/setup/AgentforceRegistry/home",
+    "description": "Register and manage Model Context Protocol (MCP) servers for Agentforce agents."
+  },
+  {
+    "title": "Einstein Prediction Builder",
+    "value": "/lightning/setup/EinsteinBuilder/home",
+    "description": "Create AI-powered prediction models without code using Einstein Prediction Builder."
+  },
+  {
+    "title": "Einstein Recommendation Builder",
+    "value": "/lightning/setup/EinsteinRecommendation/home",
+    "description": "Build and manage AI-driven recommendation strategies for Next Best Action."
+  },
+  {
+    "title": "Einstein.ai",
+    "value": "/lightning/setup/EinsteinKeyManagement/home",
+    "description": "Manage Einstein AI platform keys and service connections."
+  },
+  {
+    "title": "Settings (Einstein Activity Capture)",
+    "value": "/lightning/setup/ActivitySyncEngineSettingsMain/home",
+    "description": "Configure Einstein Activity Capture to automatically sync emails and calendar events."
+  },
+  {
+    "title": "Delete Video Calls",
+    "value": "/lightning/setup/VideoCallDelete/home",
+    "description": "Permanently delete recorded video call data from Einstein Conversation Insights."
+  },
+  {
+    "title": "General Settings (Einstein Conversation Insights)",
+    "value": "/lightning/setup/CallCoachingSettings/home",
+    "description": "Enable and configure Einstein Conversation Insights for call recording analysis."
+  },
+  {
+    "title": "Search Layouts (Einstein Search)",
+    "value": "/lightning/setup/EinsteinSearchLayouts/home",
+    "description": "Configure which fields and objects appear in Einstein Search results."
+  },
+  {
+    "title": "Analytics (Search Manager)",
+    "value": "/lightning/setup/SearchAnalytics/home",
+    "description": "View analytics on how users are searching within the org."
+  },
+  {
+    "title": "Query Configurations",
+    "value": "/lightning/setup/SearchConfiguration/home",
+    "description": "Configure search query rules and boosting for Einstein Search."
+  },
+  {
+    "title": "Search Setup",
+    "value": "/lightning/setup/SearchIndex/home",
+    "description": "Manage search index settings and object indexing for Einstein Search."
+  },
+  {
+    "title": "Settings (Einstein Search)",
+    "value": "/lightning/setup/EinsteinSearchSettings/home",
+    "description": "Enable and configure Einstein Search features for the org."
+  },
+  {
+    "title": "Synonyms",
+    "value": "/lightning/setup/ManageSynonyms/home",
+    "description": "Define synonym groups so that searches for one term also return results for related terms."
+  },
+  {
+    "title": "Opt Out of Customer Data Access",
+    "value": "/lightning/setup/EinsteinOptOut/home",
+    "description": "Opt the org out of allowing Salesforce to access customer data for Einstein model training."
+  },
+  {
+    "title": "Object Manager",
+    "value": "/lightning/setup/ObjectManager/home",
+    "description": "View and configure all standard and custom objects, their fields, and related metadata."
+  },
+  {
+    "title": "Picklist Value Sets",
+    "value": "/lightning/setup/Picklists/home",
+    "description": "Create and manage global picklist value sets shared across multiple fields and objects."
+  },
+  {
+    "title": "Schema Builder",
+    "value": "/lightning/setup/SchemaBuilder/home",
+    "description": "Visually view and edit the data model, including objects, fields, and relationships."
+  },
+  {
+    "title": "Event Manager",
+    "value": "/lightning/setup/EventManager/home",
+    "description": "Enable and configure Platform Events and Change Data Capture event streaming."
+  },
+  {
+    "title": "Event Relays",
+    "value": "/lightning/setup/EventRelay/home",
+    "description": "Configure relays to forward Platform Events to external event buses like AWS EventBridge."
+  },
+  {
+    "title": "Event Studio",
+    "value": "/lightning/setup/EventHome/home",
+    "description": "Create and manage event-driven automations using the Event Studio interface."
+  },
+  {
+    "title": "Approval Processes",
+    "value": "/lightning/setup/ApprovalProcesses/home",
+    "description": "Create and manage multi-step approval processes for any object."
+  },
+  {
+    "title": "Automation App",
+    "value": "/lightning/setup/ProcessHome/home",
+    "description": "Access the unified Automation app for managing Flows, Process Builder, and Workflow Rules."
+  },
+  {
+    "title": "Flows",
+    "value": "/lightning/setup/Flows/home",
+    "description": "Create and manage Flow automations for screen flows, record-triggered flows, and more."
+  },
+  {
+    "title": "Migrate to Flow",
+    "value": "/lightning/setup/MigrateToFlowTool/home",
+    "description": "Use the migration tool to convert Workflow Rules and Process Builder processes to Flows."
+  },
+  {
+    "title": "Next Best Action",
+    "value": "/lightning/setup/NextBestAction/home",
+    "description": "Create recommendation strategies that surface AI-driven suggestions to users."
+  },
+  {
+    "title": "Paused And Failed Flow Interviews",
+    "value": "/lightning/setup/Pausedflows/home",
+    "description": "Monitor and manage flow interviews that are paused or have encountered errors."
+  },
+  {
+    "title": "Post Templates",
+    "value": "/lightning/setup/FeedTemplates/home",
+    "description": "Create reusable Chatter post templates for workflow actions."
+  },
+  {
+    "title": "Process Automation Settings",
+    "value": "/lightning/setup/WorkflowSettings/home",
+    "description": "Configure org-wide settings for workflow and process automation behavior."
+  },
+  {
+    "title": "Process Builder",
+    "value": "/lightning/setup/ProcessAutomation/home",
+    "description": "Create and manage Process Builder automations (legacy, being replaced by Flow)."
+  },
+  {
+    "title": "Email Alerts (Workflow)",
+    "value": "/lightning/setup/WorkflowEmails/home",
+    "description": "Create reusable email alert actions for use in workflow rules and processes."
+  },
+  {
+    "title": "Field Updates (Workflow)",
+    "value": "/lightning/setup/WorkflowFieldUpdates/home",
+    "description": "Create reusable field update actions for use in workflow rules and processes."
+  },
+  {
+    "title": "Outbound Messages (Workflow)",
+    "value": "/lightning/setup/WorkflowOutboundMessaging/home",
+    "description": "Create outbound message actions that send SOAP API calls to external endpoints."
+  },
+  {
+    "title": "Send Actions",
+    "value": "/lightning/setup/SendAction/home",
+    "description": "Create Send Action workflow actions for sending messages via messaging channels."
+  },
+  {
+    "title": "Tasks (Workflow)",
+    "value": "/lightning/setup/WorkflowTasks/home",
+    "description": "Create reusable task creation actions for use in workflow rules and processes."
+  },
+  {
+    "title": "Workflow Rules",
+    "value": "/lightning/setup/WorkflowRules/home",
+    "description": "Create and manage Workflow Rules (legacy automation, being replaced by Flow)."
+  },
+  {
+    "title": "Action Link Templates",
+    "value": "/lightning/setup/ActionLinkGroupTemplates/home",
+    "description": "Create reusable action link group templates for embedding actions in Chatter feed items."
+  },
+  {
+    "title": "Actions & Recommendations",
+    "value": "/lightning/setup/GuidedActions/home",
+    "description": "Configure the Actions & Recommendations component for displaying guided actions to users."
+  },
+  {
+    "title": "App Menu",
+    "value": "/lightning/setup/AppMenu/home",
+    "description": "Customize the order and visibility of apps in the App Launcher."
+  },
+  {
+    "title": "Console Workspace Page Loading Preference",
+    "value": "/lightning/setup/DeferRenderingWorkspacePageSetupPage/home",
+    "description": "Configure whether console workspace tabs load eagerly or on demand."
+  },
+  {
+    "title": "Loaded Console Tab Limit",
+    "value": "/lightning/setup/ConsoleMaxTabCacheSetup/home",
+    "description": "Set the maximum number of tabs that can be loaded simultaneously in the Service Console."
+  },
+  {
+    "title": "Custom Labels",
+    "value": "/lightning/setup/ExternalStrings/home",
+    "description": "Create and manage custom labels for use in Apex, Visualforce, and Lightning components."
+  },
+  {
+    "title": "Density Settings",
+    "value": "/lightning/setup/DensitySetup/home",
+    "description": "Set the default display density (Comfy or Compact) for the Lightning Experience UI."
+  },
+  {
+    "title": "Global Actions",
+    "value": "/lightning/setup/GlobalActions/home",
+    "description": "Create and manage global actions available from the global action menu."
+  },
+  {
+    "title": "Publisher Layouts",
+    "value": "/lightning/setup/GlobalPublisherLayouts/home",
+    "description": "Customize the global publisher layout that determines which actions appear in the global bar."
+  },
+  {
+    "title": "Lightning App Builder",
+    "value": "/lightning/setup/FlexiPageList/home",
+    "description": "Create and manage custom Lightning pages for apps, records, and the home page."
+  },
+  {
+    "title": "Lightning Extension",
+    "value": "/lightning/setup/LightningExtension/home",
+    "description": "Manage Lightning Experience extensions and customizations."
+  },
+  {
+    "title": "Path Settings",
+    "value": "/lightning/setup/PathAssistantSetupHome/home",
+    "description": "Enable and configure the Path component that guides users through record stages."
+  },
+  {
+    "title": "Quick Text Settings",
+    "value": "/lightning/setup/LightningQuickTextSettings/home",
+    "description": "Enable and configure Quick Text for inserting predefined messages in emails and chats."
+  },
+  {
+    "title": "Record Page Settings",
+    "value": "/lightning/setup/SimpleRecordHome/home",
+    "description": "Configure org-wide settings for record detail pages in Lightning Experience."
+  },
+  {
+    "title": "Rename Tabs and Labels",
+    "value": "/lightning/setup/RenameTab/home",
+    "description": "Rename standard tab labels and object names to match your organization's terminology."
+  },
+  {
+    "title": "Custom URLs",
+    "value": "/lightning/setup/DomainSites/home",
+    "description": "Create custom URLs that map to Salesforce sites or communities."
+  },
+  {
+    "title": "Domains",
+    "value": "/lightning/setup/DomainNames/home",
+    "description": "Manage custom domains registered for use with Salesforce sites and communities."
+  },
+  {
+    "title": "Sites",
+    "value": "/lightning/setup/CustomDomain/home",
+    "description": "Create and manage Salesforce Sites for hosting public-facing web pages."
+  },
+  {
+    "title": "Tabs",
+    "value": "/lightning/setup/CustomTabs/home",
+    "description": "Create and manage custom tabs for objects, Visualforce pages, and web content."
+  },
+  {
+    "title": "Themes and Branding",
+    "value": "/lightning/setup/ThemingAndBranding/home",
+    "description": "Customize the visual theme, colors, and logo of the Lightning Experience UI."
+  },
+  {
+    "title": "Export (Translation Workbench)",
+    "value": "/lightning/setup/LabelWorkbenchExport/home",
+    "description": "Export translatable metadata for translation into other languages."
+  },
+  {
+    "title": "Import (Translation Workbench)",
+    "value": "/lightning/setup/LabelWorkbenchImport/home",
+    "description": "Import completed translations back into the org."
+  },
+  {
+    "title": "Override (Translation Workbench)",
+    "value": "/lightning/setup/LabelWorkbenchOverride/home",
+    "description": "Override default translated values for specific metadata items."
+  },
+  {
+    "title": "Translate (Translation Workbench)",
+    "value": "/lightning/setup/LabelWorkbenchTranslate/home",
+    "description": "Translate metadata labels directly within the Translation Workbench."
+  },
+  {
+    "title": "Translation Language Settings",
+    "value": "/lightning/setup/LabelWorkbenchSetup/home",
+    "description": "Enable supported languages for the Translation Workbench."
+  },
+  {
+    "title": "User Interface",
+    "value": "/lightning/setup/UserInterfaceUI/home",
+    "description": "Configure org-wide UI settings such as collapsible sections and inline editing."
+  },
+  {
+    "title": "Apex Classes",
+    "value": "/lightning/setup/ApexClasses/home",
+    "description": "View, create, and manage Apex classes in the org."
+  },
+  {
+    "title": "Apex Hammer Test Results",
+    "value": "/lightning/setup/ApexHammerResultStatus/home",
+    "description": "View results from Apex Hammer automated test runs that validate code before releases."
+  },
+  {
+    "title": "Apex Settings",
+    "value": "/lightning/setup/ApexSettings/home",
+    "description": "Configure org-wide settings for Apex code execution."
+  },
+  {
+    "title": "Apex Triggers",
+    "value": "/lightning/setup/ApexTriggers/home",
+    "description": "View and manage Apex triggers associated with objects in the org."
+  },
+  {
+    "title": "Application Test Execution",
+    "value": "/lightning/setup/ApexTestQueue/home",
+    "description": "Run Apex test classes and monitor test execution progress."
+  },
+  {
+    "title": "Application Test History",
+    "value": "/lightning/setup/ApexTestHistory/home",
+    "description": "View historical results of Apex test runs in the org."
+  },
+  {
+    "title": "Canvas App Previewer",
+    "value": "/lightning/setup/CanvasPreviewerUi/home",
+    "description": "Preview Canvas apps embedded within Salesforce."
+  },
+  {
+    "title": "Custom Metadata Types",
+    "value": "/lightning/setup/CustomMetadata/home",
+    "description": "Create and manage custom metadata types for storing app configuration data."
+  },
+  {
+    "title": "Custom Permissions",
+    "value": "/lightning/setup/CustomPermissions/home",
+    "description": "Create and manage custom permissions to control access to custom features."
+  },
+  {
+    "title": "Custom Settings",
+    "value": "/lightning/setup/CustomSettings/home",
+    "description": "Create and manage custom settings objects for storing app configuration data."
+  },
+  {
+    "title": "DataWeave Resources",
+    "value": "/lightning/setup/DataWeaveResources/home",
+    "description": "Manage DataWeave script resources for data transformation in Apex and Flows."
+  },
+  {
+    "title": "Email Services",
+    "value": "/lightning/setup/EmailToApexFunction/home",
+    "description": "Configure inbound email services that process incoming emails with Apex classes."
+  },
+  {
+    "title": "Debug Mode",
+    "value": "/lightning/setup/UserDebugModeSetup/home",
+    "description": "Enable debug mode for specific users to get unminified JavaScript for LWC debugging."
+  },
+  {
+    "title": "Lightning Components",
+    "value": "/lightning/setup/LightningComponentBundles/home",
+    "description": "View and manage Lightning Web Component and Aura component bundles."
+  },
+  {
+    "title": "Live Preview",
+    "value": "/lightning/setup/LightningPreview/home",
+    "description": "Enable and configure Live Preview for real-time component previewing in the builder."
+  },
+  {
+    "title": "Lightning Types",
+    "value": "/lightning/setup/LightningTypes/home",
+    "description": "Manage Lightning type definitions used in component development."
+  },
+  {
+    "title": "Platform Cache",
+    "value": "/lightning/setup/PlatformCache/home",
+    "description": "Allocate and manage Platform Cache partitions for storing data in memory."
+  },
+  {
+    "title": "Remote Access",
+    "value": "/lightning/setup/RemoteAccess/home",
+    "description": "Manage legacy remote access applications (superseded by Connected Apps)."
+  },
+  {
+    "title": "Static Resources",
+    "value": "/lightning/setup/StaticResources/home",
+    "description": "Upload and manage static resource files (CSS, JS, images) for use in Visualforce and LWC."
+  },
+  {
+    "title": "Tools",
+    "value": "/lightning/setup/ClientDevTools/home",
+    "description": "Access developer tools and utilities for building and debugging Salesforce apps."
+  },
+  {
+    "title": "Visualforce Components",
+    "value": "/lightning/setup/ApexComponents/home",
+    "description": "View and manage Visualforce components used in Visualforce pages."
+  },
+  {
+    "title": "Visualforce Pages",
+    "value": "/lightning/setup/ApexPages/home",
+    "description": "View and manage Visualforce pages in the org."
+  },
+  {
+    "title": "Agentforce Vibes Extension",
+    "value": "/lightning/setup/EinsteinForDevelopers/home",
+    "description": "Configure the Agentforce Vibes VS Code extension for AI-assisted development."
+  },
+  {
+    "title": "Agentforce Vibes IDE",
+    "value": "/lightning/setup/CodeBuilderSetup/home",
+    "description": "Set up the Agentforce Vibes browser-based IDE (Code Builder) for development."
+  },
+  {
+    "title": "Dev Hub",
+    "value": "/lightning/setup/DevHub/home",
+    "description": "Enable the Dev Hub to allow creation and management of scratch orgs."
+  },
+  {
+    "title": "DevOps Center",
+    "value": "/lightning/setup/DevOpsCenterSetup/home",
+    "description": "Set up and manage the Salesforce DevOps Center for pipeline-based deployments."
+  },
+  {
+    "title": "Scratch Orgs",
+    "value": "/lightning/setup/ShapeGrantAccess/home",
+    "description": "Manage scratch org shape and grant access for scratch org creation."
+  },
+  {
+    "title": "Web Console (Beta)",
+    "value": "/lightning/setup/PlatformWebIdeSetup/home",
+    "description": "Configure access to the browser-based web console for Salesforce development."
+  },
+  {
+    "title": "Alerts (Scale Center)",
+    "value": "/lightning/setup/ScaleCenterAlerts/home",
+    "description": "View and manage performance alerts generated by Scale Center monitoring."
+  },
+  {
+    "title": "Org Overview (Scale Center)",
+    "value": "/lightning/setup/ScaleCenterOrgOverview/home",
+    "description": "View a high-level overview of your org's performance and scale health."
+  },
+  {
+    "title": "Org Performance",
+    "value": "/lightning/setup/Metrics/home",
+    "description": "View detailed performance metrics for the org over time."
+  },
+  {
+    "title": "Performance Analysis",
+    "value": "/lightning/setup/PerformanceAnalysis/home",
+    "description": "Analyze specific transactions and identify performance bottlenecks."
+  },
+  {
+    "title": "ApexGuru Insights",
+    "value": "/lightning/setup/ApexGuruInsights/home",
+    "description": "View AI-powered insights and recommendations for improving Apex code performance."
+  },
+  {
+    "title": "Database Insights",
+    "value": "/lightning/setup/DatabaseInsights/home",
+    "description": "View insights into database query performance and optimization opportunities."
+  },
+  {
+    "title": "Deployment Insights",
+    "value": "/lightning/setup/DeploymentInsights/home",
+    "description": "View insights related to deployment performance and metadata complexity."
+  },
+  {
+    "title": "Lightning Experience Insights",
+    "value": "/lightning/setup/LexInsights/home",
+    "description": "View insights on Lightning Experience page performance and load times."
+  },
+  {
+    "title": "Report Insights",
+    "value": "/lightning/setup/ReportInsights/home",
+    "description": "View insights on report performance and identify slow-running reports."
+  },
+  {
+    "title": "Search Insights",
+    "value": "/lightning/setup/SearchInsights/home",
+    "description": "View insights on search performance and query patterns."
+  },
+  {
+    "title": "Overview (Scale Test)",
+    "value": "/lightning/setup/ScaleTestOverview/home",
+    "description": "View an overview of Scale Test configurations and results for load testing."
+  },
+  {
+    "title": "Inbound Change Sets",
+    "value": "/lightning/setup/InboundChangeSet/home",
+    "description": "View and deploy change sets received from connected orgs."
+  },
+  {
+    "title": "Outbound Change Sets",
+    "value": "/lightning/setup/OutboundChangeSet/home",
+    "description": "Create and send change sets to connected orgs for deployment."
+  },
+  {
+    "title": "Deployment Settings",
+    "value": "/lightning/setup/DeploymentSettings/home",
+    "description": "Configure deployment connections between orgs for change set deployments."
+  },
+  {
+    "title": "Deployment Status",
+    "value": "/lightning/setup/DeployStatus/home",
+    "description": "Monitor the status of in-progress and completed metadata deployments."
+  },
+  {
+    "title": "Apex Flex Queue",
+    "value": "/lightning/setup/ApexFlexQueue/home",
+    "description": "View and reorder Apex batch jobs waiting in the flex queue."
+  },
+  {
+    "title": "Apex Jobs",
+    "value": "/lightning/setup/AsyncApexJobs/home",
+    "description": "Monitor the status of all asynchronous Apex jobs (batch, future, queueable, scheduled)."
+  },
+  {
+    "title": "Background Jobs",
+    "value": "/lightning/setup/ParallelJobsStatus/home",
+    "description": "Monitor the status of background platform jobs running in the org."
+  },
+  {
+    "title": "Bulk Data Load Jobs",
+    "value": "/lightning/setup/AsyncApiJobStatus/home",
+    "description": "Monitor the status of data import and export jobs submitted via the Bulk API."
+  },
+  {
+    "title": "Scheduled Jobs",
+    "value": "/lightning/setup/ScheduledJobs/home",
+    "description": "View and manage all scheduled Apex jobs and scheduled automations."
+  },
+  {
+    "title": "Debug Logs",
+    "value": "/lightning/setup/ApexDebugLogs/home",
+    "description": "Configure debug log filters and view captured debug logs for troubleshooting."
+  },
+  {
+    "title": "Email Log Files",
+    "value": "/lightning/setup/EmailLogFiles/home",
+    "description": "Download email log files that record all emails sent from the org."
+  },
+  {
+    "title": "API Usage Notifications",
+    "value": "/lightning/setup/MonitoringRateLimitingNotification/home",
+    "description": "Set up notifications when API usage approaches org limits."
+  },
+  {
+    "title": "Case Escalations",
+    "value": "/lightning/setup/DataManagementManageCaseEscalation/home",
+    "description": "Monitor cases currently in the escalation queue."
+  },
+  {
+    "title": "Email Snapshots",
+    "value": "/lightning/setup/EmailCapture/home",
+    "description": "View snapshots of emails sent from the org for monitoring purposes."
+  },
+  {
+    "title": "Entitlement Processes (Monitoring)",
+    "value": "/lightning/setup/DataManagementManageSlaProcess/home",
+    "description": "Monitor active entitlement processes and their milestone statuses."
+  },
+  {
+    "title": "Outbound Messages (Monitoring)",
+    "value": "/lightning/setup/WorkflowOmStatus/home",
+    "description": "Monitor the delivery status of outbound messages sent by workflow rules."
+  },
+  {
+    "title": "Time-Based Automations",
+    "value": "/lightning/setup/DataManagementManageWorkflowQueue/home",
+    "description": "View and manage pending time-based workflow and process automation actions."
+  },
+  {
+    "title": "Sandboxes",
+    "value": "/lightning/setup/DataManagementCreateTestInstance/home",
+    "description": "Create and manage sandbox environments for development and testing."
+  },
+  {
+    "title": "System Overview",
+    "value": "/lightning/setup/SystemOverview/home",
+    "description": "View a dashboard of key org limits, storage, and usage metrics."
+  },
+  {
+    "title": "Adoption Assistance",
+    "value": "/lightning/setup/AdoptionAssistance/home",
+    "description": "Configure adoption assistance features to help users learn Lightning Experience."
+  },
+  {
+    "title": "Guidance Center",
+    "value": "/lightning/setup/LearningSetup/home",
+    "description": "Configure the Guidance Center panel that surfaces contextual help and learning content."
+  },
+  {
+    "title": "Help Menu",
+    "value": "/lightning/setup/HelpMenu/home",
+    "description": "Customize the Help menu with org-specific resources and links."
+  },
+  {
+    "title": "In-App Guidance",
+    "value": "/lightning/setup/Prompts/home",
+    "description": "Create and manage in-app prompts and walkthroughs to guide users through features."
+  },
+  {
+    "title": "API",
+    "value": "/lightning/setup/WebServices/home",
+    "description": "Download WSDL files and access API documentation for Salesforce web services."
+  },
+  {
+    "title": "API Catalog",
+    "value": "/lightning/setup/ApiCatalog/home",
+    "description": "Browse and manage a catalog of APIs available for integration."
+  },
+  {
+    "title": "MCP Servers (Integrations)",
+    "value": "/lightning/setup/McpServer/home",
+    "description": "Register and manage Model Context Protocol (MCP) servers for API integrations."
+  },
+  {
+    "title": "Basic Data Import",
+    "value": "/lightning/setup/BasicDataImport/home",
+    "description": "Import data using a simple wizard for basic data loading needs."
+  },
+  {
+    "title": "Change Data Capture",
+    "value": "/lightning/setup/CdcObjectEnablement/home",
+    "description": "Enable Change Data Capture on specific objects to stream record change events."
+  },
+  {
+    "title": "Data Import Wizard",
+    "value": "/lightning/setup/DataManagementDataImporter/home",
+    "description": "Use the guided wizard to import data for standard objects like Contacts and Leads."
+  },
+  {
+    "title": "Data Loader",
+    "value": "/lightning/setup/DataLoader/home",
+    "description": "Download and access the Salesforce Data Loader desktop app for bulk data operations."
+  },
+  {
+    "title": "Dataloader.io",
+    "value": "/lightning/setup/DataLoaderIo/home",
+    "description": "Access the cloud-based Dataloader.io tool for importing and exporting Salesforce data."
+  },
+  {
+    "title": "External Data Sources",
+    "value": "/lightning/setup/ExternalDataSource/home",
+    "description": "Configure external data sources for Salesforce Connect to access data outside Salesforce."
+  },
+  {
+    "title": "External Objects",
+    "value": "/lightning/setup/ExternalObjects/home",
+    "description": "View and manage external objects that represent data from external data sources."
+  },
+  {
+    "title": "External Services",
+    "value": "/lightning/setup/ExternalServices/home",
+    "description": "Register external REST APIs as External Services to use in Flows and Apex."
+  },
+  {
+    "title": "Named Query API",
+    "value": "/lightning/setup/ApiNamedQuery/home",
+    "description": "Configure named query APIs for simplified data access patterns."
+  },
+  {
+    "title": "Platform Events",
+    "value": "/lightning/setup/EventObjects/home",
+    "description": "Create and manage Platform Event objects for event-driven integrations."
+  },
+  {
+    "title": "Teams Integration",
+    "value": "/lightning/setup/MicrosoftTeamsIntegration/home",
+    "description": "Configure the Microsoft Teams integration for Salesforce collaboration features."
+  },
+  {
+    "title": "Custom Notifications",
+    "value": "/lightning/setup/CustomNotifications/home",
+    "description": "Create custom notification types for sending in-app and mobile push notifications."
+  },
+  {
+    "title": "Notification Delivery Settings",
+    "value": "/lightning/setup/NotificationTypesManager/home",
+    "description": "Configure which channels (desktop, mobile) deliver each notification type."
+  },
+  {
+    "title": "Briefcase Builder",
+    "value": "/lightning/setup/Briefcase/home",
+    "description": "Configure Briefcase rules that define which records are available offline in the mobile app."
+  },
+  {
+    "title": "Solution Deployment Monitoring",
+    "value": "/lightning/setup/SolutionMonitoring/home",
+    "description": "Monitor the deployment status of Go Accelerate solutions across orgs."
+  },
+  {
+    "title": "Business Hours",
+    "value": "/lightning/setup/BusinessHours/home",
+    "description": "Define your organization's standard business hours for use in escalation rules and entitlements."
+  },
+  {
+    "title": "Public Calendars and Resources",
+    "value": "/lightning/setup/Calendars/home",
+    "description": "Create and manage public calendars and resource calendars for scheduling."
+  },
+  {
+    "title": "Company Information",
+    "value": "/lightning/setup/CompanyProfileInfo/home",
+    "description": "View and edit your organization's name, address, default locale, and license information."
+  },
+  {
+    "title": "Data Protection and Privacy",
+    "value": "/lightning/setup/ConsentManagement/home",
+    "description": "Configure data protection and privacy settings for GDPR and consent management."
+  },
+  {
+    "title": "Fiscal Year",
+    "value": "/lightning/setup/ForecastFiscalYear/home",
+    "description": "Define your organization's fiscal year start month for forecasting and reporting."
+  },
+  {
+    "title": "Holidays",
+    "value": "/lightning/setup/Holiday/home",
+    "description": "Define company holidays that are excluded from business hours calculations."
+  },
+  {
+    "title": "Language Settings",
+    "value": "/lightning/setup/LanguageSettings/home",
+    "description": "Configure the default language and supported languages for the org."
+  },
+  {
+    "title": "Maps and Location Settings",
+    "value": "/lightning/setup/MapsAndLocationServicesSettings/home",
+    "description": "Enable and configure Salesforce Maps and location services features."
+  },
+  {
+    "title": "My Domain",
+    "value": "/lightning/setup/OrgDomain/home",
+    "description": "Set up and manage your org's custom My Domain URL for branding and SSO."
+  },
+  {
+    "title": "Data Classification Download",
+    "value": "/lightning/setup/DataClassificationDownload/home",
+    "description": "Download a CSV of your org's field-level data classification metadata."
+  },
+  {
+    "title": "Data Classification Settings",
+    "value": "/lightning/setup/DataClassificationSettings/home",
+    "description": "Configure settings for the Data Classification feature."
+  },
+  {
+    "title": "Data Classification Upload",
+    "value": "/lightning/setup/DataClassificationUpload/home",
+    "description": "Upload a CSV to bulk-update field-level data classification metadata."
+  },
+  {
+    "title": "Consent Event Stream",
+    "value": "/lightning/setup/ConsentEventStream/home",
+    "description": "View and manage the stream of consent change events for privacy compliance."
+  },
+  {
+    "title": "Auth Providers",
+    "value": "/lightning/setup/AuthProviders/home",
+    "description": "Configure third-party authentication providers (e.g., Google, Facebook) for social sign-on."
+  },
+  {
+    "title": "Identity Provider",
+    "value": "/lightning/setup/IdpPage/home",
+    "description": "Enable Salesforce as a SAML Identity Provider for other applications."
+  },
+  {
+    "title": "Identity Provider Event Log",
+    "value": "/lightning/setup/IdpErrorLog/home",
+    "description": "View the log of SAML identity provider events and errors."
+  },
+  {
+    "title": "Identity Verification",
+    "value": "/lightning/setup/IdentityVerification/home",
+    "description": "Configure identity verification methods (SMS, TOTP) for multi-factor authentication."
+  },
+  {
+    "title": "Identity Verification History",
+    "value": "/lightning/setup/VerificationHistory/home",
+    "description": "View the history of identity verification attempts by users."
+  },
+  {
+    "title": "Login Flows",
+    "value": "/lightning/setup/LoginFlow/home",
+    "description": "Create Flow-based login flows that run after user authentication."
+  },
+  {
+    "title": "Login History",
+    "value": "/lightning/setup/OrgLoginHistory/home",
+    "description": "View a log of all login attempts to the org, including successes and failures."
+  },
+  {
+    "title": "OAuth Custom Scopes",
+    "value": "/lightning/setup/OauthCustomScope/home",
+    "description": "Create custom OAuth scopes to grant fine-grained access to connected apps."
+  },
+  {
+    "title": "OAuth and OpenID Connect Settings",
+    "value": "/lightning/setup/OauthOidcSettings/home",
+    "description": "Configure org-wide settings for OAuth 2.0 and OpenID Connect behavior."
+  },
+  {
+    "title": "Single Sign-On Settings",
+    "value": "/lightning/setup/SingleSignOn/home",
+    "description": "Configure SAML-based Single Sign-On settings for the org."
+  },
+  {
+    "title": "Token Exchange Handlers",
+    "value": "/lightning/setup/OauthTokenExchangeHandlers/home",
+    "description": "Configure Apex handlers for OAuth token exchange flows."
+  },
+  {
+    "title": "Activations",
+    "value": "/lightning/setup/ActivatedIpAddressAndClientBrowsersPage/home",
+    "description": "View and manage trusted IP addresses and browsers that have been activated by users."
+  },
+  {
+    "title": "CORS",
+    "value": "/lightning/setup/CorsWhitelistEntries/home",
+    "description": "Add trusted origins to the CORS allowlist to permit cross-origin API requests."
+  },
+  {
+    "title": "Certificate and Key Management",
+    "value": "/lightning/setup/CertificatesAndKeysManagement/home",
+    "description": "Create and manage digital certificates and keys for encryption and authentication."
+  },
+  {
+    "title": "Delegated Administration",
+    "value": "/lightning/setup/DelegateGroups/home",
+    "description": "Configure delegated administrator groups to allow non-admin users to manage specific users."
+  },
+  {
+    "title": "Event Log File Browser",
+    "value": "/lightning/setup/ElfBrowser/home",
+    "description": "Browse and download Event Monitoring log files for security and usage analysis."
+  },
+  {
+    "title": "Event Monitoring Settings",
+    "value": "/lightning/setup/EventMonitoringSetup/home",
+    "description": "Enable and configure Event Monitoring for tracking user activity log files."
+  },
+  {
+    "title": "Expire All Passwords",
+    "value": "/lightning/setup/SecurityExpirePasswords/home",
+    "description": "Force all users to reset their passwords at their next login."
+  },
+  {
+    "title": "Field Accessibility",
+    "value": "/lightning/setup/FieldAccessibility/home",
+    "description": "View and compare field-level security settings across profiles and permission sets."
+  },
+  {
+    "title": "File Upload and Download Security",
+    "value": "/lightning/setup/FileTypeSetting/home",
+    "description": "Configure which file types can be uploaded or downloaded to prevent security risks."
+  },
+  {
+    "title": "Health Check",
+    "value": "/lightning/setup/HealthCheck/home",
+    "description": "View a security score and recommendations for improving your org's security posture."
+  },
+  {
+    "title": "Login Access Policies",
+    "value": "/lightning/setup/LoginAccessPolicies/home",
+    "description": "Configure policies that control administrator login access to user accounts."
+  },
+  {
+    "title": "Named Credentials",
+    "value": "/lightning/setup/NamedCredential/home",
+    "description": "Create named credentials to securely store authentication details for external callouts."
+  },
+  {
+    "title": "Network Access",
+    "value": "/lightning/setup/NetworkAccess/home",
+    "description": "Define trusted IP ranges that allow users to log in without identity verification."
+  },
+  {
+    "title": "Password Policies",
+    "value": "/lightning/setup/SecurityPolicies/home",
+    "description": "Configure password complexity, expiration, and lockout policies for the org."
+  },
+  {
+    "title": "Private Connect",
+    "value": "/lightning/setup/PrivateConnect/home",
+    "description": "Configure Private Connect for secure, private network connectivity to Salesforce."
+  },
+  {
+    "title": "Remote Site Settings",
+    "value": "/lightning/setup/SecurityRemoteProxy/home",
+    "description": "Allowlist external URLs that Salesforce is permitted to make callouts to."
+  },
+  {
+    "title": "Session Management",
+    "value": "/lightning/setup/SessionManagementPage/home",
+    "description": "View and terminate active user sessions in the org."
+  },
+  {
+    "title": "Session Settings",
+    "value": "/lightning/setup/SecuritySession/home",
+    "description": "Configure session timeout, security levels, and other session-related security settings."
+  },
+  {
+    "title": "Sharing Settings",
+    "value": "/lightning/setup/SecuritySharing/home",
+    "description": "Configure org-wide default sharing settings and sharing rules for all objects."
+  },
+  {
+    "title": "Trusted URL and Browser Policy Violations",
+    "value": "/lightning/setup/BrowserPolicyViolations/home",
+    "description": "View violations of Content Security Policy (CSP) and trusted URL rules."
+  },
+  {
+    "title": "Trusted URLs",
+    "value": "/lightning/setup/SecurityCspTrustedSite/home",
+    "description": "Add trusted URLs to the Content Security Policy allowlist for Lightning components."
+  },
+  {
+    "title": "Trusted URLs for Redirects",
+    "value": "/lightning/setup/SecurityRedirectWhitelistUrl/home",
+    "description": "Allowlist external URLs that Salesforce is permitted to redirect users to."
+  },
+  {
+    "title": "View Setup Audit Trail",
+    "value": "/lightning/setup/SecurityEvents/home",
+    "description": "View a log of recent configuration changes made in Setup for auditing purposes."
+  }
 ]
